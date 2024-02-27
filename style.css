@@ -1,0 +1,324 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    background-image: url("https://wallpaperaccess.com/full/5651978.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+ .page1{
+    height: 100%;
+    width: 100%;
+    
+ }
+ 
+ .body{
+    overflow: auto;
+}
+   
+ 
+ 
+ 
+ .heading{
+    z-index: 1;
+    display: flex;
+    background-color:transparent;
+    width:100vw;
+    
+    border-width: 0.15vw;
+    border-radius: 0.5vw;
+}
+
+.navbar{
+    text-align: right;
+}
+
+.navbar:hover{
+    text-decoration: underline;
+    color: brown;
+    cursor: pointer;
+}
+
+.top{
+    position: fixed;
+    text-align: right;
+    margin-left: 38vw; ;
+    color:rgb(111, 106, 106);
+    display: flex;
+    gap: 3vw;
+    list-style: none;
+    padding: 1.5vw;
+    margin-right:5vw;
+    z-index: 200;
+    
+    font-size: 1.2vw;
+}
+
+.name{
+    font-family: 'Protest Strike', sans-serif;
+    justify-self: center;
+    padding: 1.5vw;
+    font-size: 1.2vw;
+}
+.intro{
+    display:flex;
+    flex-direction: column;
+    gap:2vw;
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-size:1.3vw; */
+    font-size :1.5vw; 
+    text-align: left;
+}
+.jha{
+    color: orange;
+}
+.red{
+    color: red;
+}
+.mj{
+    color: red;
+    position: absolute;
+    left:9.4vw;
+    top:11vw;
+
+}
+.about{
+    color: white;
+    background-color: rgb(19, 19, 142);
+    padding: 1.5vw;
+    border-radius: 100vw;
+    font-size: 1.5vw;
+    text-shadow: 1vw;
+    width:fit-content;
+}
+
+.description{
+    margin-top:10px;
+}
+
+.a{
+    display:flex;
+
+}    
+
+.hero{
+    height:100vh;
+    width: 100vw;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    gap:40vw;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.myphoto{
+    height: 25vw;
+    width:25vw;
+    border-radius: 50%;
+   
+    
+    
+    
+   
+}
+.education{
+    width: 100vw;
+    height: 100vh;
+    font-size:1.1vw;
+    
+}
+.edubtn{
+    background-color: transparent;
+    border-color: transparent;
+    border: transparent;
+}
+.aboutpage{
+    width:100vw;
+    height:100vh;
+    font-size: 1.1vw;
+   
+    
+    
+   
+}
+.home{
+    width:100vw;
+    height:100vh;
+    
+}
+.skills{
+    width:100vw;
+    height:100vh; 
+    font-size: 1.1vw; 
+   
+   
+}
+.about:hover{
+    text-decoration: underline;
+    color: brown;
+    cursor: pointer;
+}
+.footer{
+    background-color:black;
+    justify-content: center;
+   
+    
+}
+.contacts{
+    
+    display: flex;
+    gap:20vw;
+    justify-content: center;
+    
+    width:100vw;
+
+}
+.smlinks{
+    height: 4vw;
+    width: 4vw;
+    background-color:black;
+    color: black;
+    
+}
+.bottom{
+    color: white;
+   
+    justify-content: center;
+    text-align: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.1vw;
+  
+   
+}
+.rajesh{
+    background-color: black;
+    font-size: 1.1vw;
+    
+}
+.aboutmeheading{
+    
+        font-family: "Anta", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.5vw;
+        text-wrap: wrap;
+      
+      
+}
+.aboutmecontent{
+    font-family: "Mukta", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:1.5vw ;
+    text-wrap: wrap;
+  
+}
+.aboutphoto{
+    height: 25vw;
+    width: 25vw;
+    border-radius: 2vw;
+   
+}
+
+
+
+.hero1{
+    display: inline-flex;
+    gap: 23vw;
+    justify-content: center;
+    align-items: center;
+   padding: 5vh;
+   
+   
+
+}
+.aboutwriteup{
+    text-wrap: wrap; 
+    color:rgb(111, 106, 106);
+}
+.aboutmeheading{
+    color:rgb(199, 88, 88);
+}
+.aboutme{
+    color:rgb(19, 14, 14);
+    padding-left: 2vw;
+    padding-top:1vw ;
+    font-family: "Mukta", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:2.7vw ;
+
+    
+}
+.skillscontent1{
+    text-wrap: wrap;
+}
+.skillscontent2{
+    text-wrap: wrap;
+}
+.hero2{
+    display:inline-flex; 
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30vw;
+    padding-top: 5vw;
+    gap: 7vw;
+    padding-right: 5vw;
+    font-family: "Mukta", sans-serif;
+    color:rgb(105, 101, 101);
+    font-size: 1.3vw;
+    
+}
+.subheadingskills{
+    color:rgb(199, 88, 88);
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vw;
+    text-wrap: wrap;
+    padding-left: 41vw;
+    margin-top: 3vw;
+}
+.hrtop{
+    margin-left: 38vw;
+    width: 52vw;
+    margin-top: 2vw;
+}
+.college{
+    display: inline-flex;
+    flex-direction: row;
+    gap:10vw;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1vw;
+    margin-left: 40vw;
+    font-family: "Mukta", sans-serif;
+    color:rgb(105, 101, 101);
+}
+.hrbottom{
+    margin-left: 38vw;
+    width: 52vw;
+    margin-top: 2vw;
+}
+.skillsheading{
+    font-family: "Mukta", sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 2.7vw;
+    padding-left: 2vw;
+    padding-top: 0.5vw;
+}
+.smlinks:hover{
+    
+    cursor: pointer;
+    
+
+}
