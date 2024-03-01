@@ -22,10 +22,11 @@
  
  
  .heading{
-    z-index: 1;
+    z-index: 200;
     display: flex;
-    background-color:transparent;
+    background-color:white;
     width:100vw;
+    position: fixed;
     
     border-width: 0.15vw;
     border-radius: 0.5vw;
@@ -44,7 +45,7 @@
 .top{
     position: fixed;
     text-align: right;
-    margin-left: 38vw; ;
+     margin-left: 38vw;  
     color:rgb(111, 106, 106);
     display: flex;
     gap: 3vw;
@@ -52,6 +53,10 @@
     padding: 1.5vw;
     margin-right:5vw;
     z-index: 200;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
     
     font-size: 1.2vw;
 }
@@ -87,11 +92,15 @@
 .about{
     color: white;
     background-color: rgb(19, 19, 142);
-    padding: 1.5vw;
+     padding-left: 3vw; 
+     padding-right: 3vw;
+     padding-top: 2vh;
+     padding-bottom: 2vh;
     border-radius: 100vw;
     font-size: 1.5vw;
     text-shadow: 1vw;
     width:fit-content;
+    
 }
 
 .description{
@@ -268,7 +277,8 @@
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    padding-left: 30vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
     padding-top: 5vw;
     gap: 7vw;
     padding-right: 5vw;
@@ -284,29 +294,38 @@
     font-style: normal;
     font-size: 3vw;
     text-wrap: wrap;
-    padding-left: 41vw;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
     margin-top: 3vw;
+    padding-left:29vw ;
+    padding-right:29vw ;
 }
 .hrtop{
-    margin-left: 38vw;
+    margin-left: 22vw;
+    margin-right: 22vw;
     width: 52vw;
     margin-top: 2vw;
 }
 .college{
     display: inline-flex;
     flex-direction: row;
-    gap:10vw;
+    gap:9vw;
     justify-content: center;
     align-items: center;
     padding-top: 1vw;
-    margin-left: 40vw;
+    margin-left: 22.5vw;
+    margin-right: 22.5vw;
     font-family: "Mukta", sans-serif;
     color:rgb(105, 101, 101);
 }
 .hrbottom{
-    margin-left: 38vw;
+   
     width: 52vw;
     margin-top: 2vw;
+    margin-left: 22vw;
+    margin-right: 22vw;
 }
 .skillsheading{
     font-family: "Mukta", sans-serif;
@@ -321,4 +340,122 @@
     cursor: pointer;
     
 
+}
+@media screen and (max-width: 1100px ){
+  .myphoto{
+    /* width: 60vw;
+    height:60vw; */
+   width:32vh;
+   height: 32vh;
+    
+  }  
+
+  .intro{
+    font-size: 2.1vh; 
+    
+    padding-top: 14vh;
+  }
+  .about{
+    
+   
+    font-size: 2.1vh;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding-top: 2vh;
+    
+    align-content: center;
+    
+  }
+  .hithere{
+    align-self: center;
+  }
+  .description{
+    align-self: center;
+  }
+  .hero{
+    gap:8vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .name{
+    font-size: 2vh;
+  }
+  .aboutphoto{
+    width:30vh;
+    height: 30vh;
+    justify-self: center;
+    align-self: center;
+    padding-top: 4vh;
+  }
+  .aboutmeheading{
+    font-size: 2.7vh;
+    align-self: center;
+    /* padding-left: 5vw;
+    padding-right: 5vw; */
+  }
+  .hero1{
+    display: flex;
+    flex-direction: column;
+    gap:5vh;
+  }
+  .aboutmecontent{
+    font-size: 1.5vh;
+    align-self: center;
+    /* padding-left: 5vw;
+    padding-right: 5vw; */
+    
+  }
+  .hero2{
+    display: flex;
+    flex-direction: column;
+  }
+  .skillscontent1{
+    font-size: 1.5vh;
+    padding-top: 7vh;
+    
+}
+  .skillscontent2{
+    font-size: 1.5vh;
+    padding-top: 2vh;
+  }
+  .subheadingskills{
+    padding-left: 25vw;
+    padding-right: 25vw;
+    font-size: 3vh;
+    padding-top: 10vh;
+  }
+  .college1{
+    font-size: 1.1vh;
+  }
+  .college2{
+    font-size: 1.1vh;
+  }
+  .footer{
+    height:4vh;
+    
+  }
+  .rajesh{
+    padding-top: 2vh;
+   
+  }
+  .smlinks{
+    height: 3.5vh;
+    width: 3.5vh;
+  }
+  .bottom{
+    font-size: 1.5vh;
+    padding-bottom: 2.5vh;
+  }
+  .aboutme{
+    font-size: 2.5vh;
+  }
+  .skillsheading{
+    font-size: 2.5vh;
+  }
+  .top{
+    font-size: 1.3vh;
+    padding-left: 10vw;
+    padding-right:10vw ;
+  }
 }

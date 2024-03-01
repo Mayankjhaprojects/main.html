@@ -11,7 +11,7 @@ let b= document.getElementById("aboutpage")
 a.addEventListener("click",func);
 function func(){
     console.log("clicked");
-   b.scrollIntoView({behaviour: "smooth"});
+   b.scrollIntoView({behavior: 'smooth'});
 }
 }
 {
@@ -20,7 +20,7 @@ function func(){
     c.addEventListener("click",func);
     function func(){
         console.log("clicked");
-       d.scrollIntoView({behaviour: "smooth"});
+       d.scrollIntoView({behavior: 'smooth'});
     }   
 }
 {
@@ -29,7 +29,7 @@ function func(){
     e.addEventListener("click",func);
     function func(){
         console.log("clicked");
-       f.scrollIntoView({behaviour: "smooth"});
+       f.scrollIntoView({behavior: 'smooth'});
     }   
 }
 {
@@ -38,7 +38,7 @@ function func(){
     g.addEventListener("click",func);
     function func(){
         console.log("clicked");
-       h.scrollIntoView({behaviour: "smooth"});
+       h.scrollIntoView({behavior: 'smooth'});
     }   
 }
 {
@@ -47,6 +47,6 @@ function func(){
     i.addEventListener("click",func);
     function func(){
         console.log("clicked");
-       j.scrollIntoView({behaviour: "smooth"});
+       j.scrollIntoView({behavior: 'smooth'});
     }   
 }
