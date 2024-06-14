@@ -1,3 +1,7 @@
+
+  
+
+
 // let y = document.getElementById("edubtn");
 // let x= document.getElementById("education")
 // y.addEventListener("click",func);
@@ -10,7 +14,7 @@ let a = document.getElementById("aboutbtn");
 let b= document.getElementById("aboutpage")
 a.addEventListener("click",func);
 function func(){
-    console.log("clicked");
+     console.log("hover");
    b.scrollIntoView({behavior: 'smooth'});
 }
 }
@@ -50,3 +54,10 @@ function func(){
        j.scrollIntoView({behavior: 'smooth'});
     }   
 }
+let projectsbtn=document.querySelector("#projectsbtn");
+let projectsheading=document.querySelector("#projectsheading");
+
+projectsbtn.addEventListener("click",()=>{
+    projectsheading.scrollIntoView({behavior: 'smooth'});
+
+})
