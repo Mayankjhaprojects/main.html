@@ -706,7 +706,16 @@
   flex-direction: column;
   gap:1vw;
 }
+.nameform{
+  height:5vh;
+}
+.emailform{
+  height:5vh;
 
+}
+.textareaform{
+  height:8vh;
+}
 form {
   display: flex;
   flex-direction: column;
@@ -962,24 +971,24 @@ font-size: 1.5vw;
     gap:5vw;
   }
   .course1{
-    width:40vw;
-    height:50vw;
-    font-size:2.5vw ;
+    width:50vw;
+    height:55vw;
+    font-size:3vw ;
   }
   .course2{
-    width:40vw;
-    height:50vw;
-    font-size:2.5vw ;
+    width:50vw;
+    height:55vw;
+    font-size:3vw ;
   }
   .course3{
-    width:40vw;
-    height:50vw;
-    font-size:2.5vw ;
+    width:50vw;
+    height:55vw;
+    font-size:3vw ;
   }
   .course4{
-    width:40vw;
-    height:50vw;
-    font-size:2.5vw ;
+    width:50vw;
+    height:55vw;
+    font-size:3vw ;
   }
   .project{
     width:15vw;
@@ -1085,15 +1094,15 @@ font-size: 1.5vw;
 .contactmecontent{
   font-size: 2vh;
 }
-.contactform{
+/* .contactform{
   height: 22vh;
-  width: 70vw;
+  width: 70vw; */
   
   /* padding-left: 10vw;
   padding-right: 10vw; */
 
 
-}
+
 .mayank{
    padding-left: 3.5vw;
   padding-right: 3.5vw; 
@@ -1101,10 +1110,10 @@ font-size: 1.5vw;
 .formgap{
   display:flex;
   flex-direction: column;
-  gap:2vw;
+  gap:1vh;
 }
 .contactform{
-  height:27vw;
+  height:18vh;
   width:70vw;
 }
 /* .textareaform{
@@ -1137,6 +1146,25 @@ font-size: 1.5vw;
   visibility: hidden;
   height:0vh;
   width:0vw;
+}
+.nameform{
+  height:1.5vh;
+}
+.emailform{
+  height:1.5vh;
+
+}
+.textareaform{
+  height:3vh;
+}
+.namename{
+  font-size:1.2vh;
+}
+.emailname{
+  font-size:1.2vh;
+}
+.messagename{
+  font-size:1.2vh;
 }
 
 }
