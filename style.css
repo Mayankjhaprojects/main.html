@@ -557,7 +557,7 @@
 
 .aboutme{
   color: rgb(0, 204, 255);
-    padding-left: 2vw;
+    padding-left:2vw;
     
     font-family: "Mukta", sans-serif;
     font-weight: 700;
@@ -1013,8 +1013,8 @@ font-size: 1.5vw;
     padding-top: 2vh;
   }
   .subheadingskills{
-    padding-left: 15vw;
-    padding-right: 25vw;
+    /* padding-left: 15vw;
+    padding-right: 25vw; */
     font-size: 2.9vh;
     padding-top: 10vh;
   }
@@ -1165,6 +1165,11 @@ font-size: 1.5vw;
 }
 .messagename{
   font-size:1.2vh;
+}
+.submitbtn{
+  height:2.5vh;
+  font-size:1.2vh;
+
 }
 
 }
