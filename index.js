@@ -55,7 +55,7 @@ function func(){
     }   
 }
 let projectsbtn=document.querySelector("#projectsbtn");
-let projectsheading=document.querySelector("#projectsheading");
+let projectsheading=document.querySelector("#projectspage");
 
 projectsbtn.addEventListener("click",()=>{
     projectsheading.scrollIntoView({behavior: 'smooth'});
