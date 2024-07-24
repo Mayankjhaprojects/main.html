@@ -5,10 +5,10 @@
 
  @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
- *{
+ /* *{
      margin: 0px;
      padding: 0px;
- }
+ } */
  
  body{
      font-family: 'Exo', sans-serif;
@@ -202,6 +202,7 @@
 .navbar{
     
     color: #fbf9f9;
+    text-shadow: 0 0 10px rgb(123, 121, 121);
 }
 
 .navbar:hover{
@@ -280,6 +281,7 @@
     font-size: 1.5vw;
     text-shadow: 1vw;
     width:fit-content;
+    box-shadow: 0 0 15px rgb(98, 98, 248);
     
 }
 
@@ -407,11 +409,13 @@
         font-size: 2.7vw;
         text-wrap: wrap;
         color: rgb(0, 204, 255);
+        text-shadow: 0 0 10px blue;
       
       
 }
 .aboutmecontent{
     font-family: "Mukta", sans-serif;
+    
     color: white;
     font-weight: 500;
     font-style: normal;
@@ -432,6 +436,7 @@
 .projectsheading{
   
     color: rgb(0, 204, 255);
+    text-shadow: 0 0 10px rgb(143, 143, 244);
       padding-left: 2vw;
       padding-top:1vw ;
       font-family: "Mukta", sans-serif;
@@ -534,7 +539,8 @@
   box-shadow: 0 0 10px rgba(230, 227, 227, 0.863);
 }
 .projectname{
-  color: rgb(219, 216, 216);
+  color: rgb(187, 190, 190);
+  text-shadow: 0 0 10px rgb(172, 4, 250);
 }
 .projectspage{
   background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D');
@@ -567,7 +573,11 @@
 
 .aboutme{
   color: rgb(0, 204, 255);
-    padding-left:2vw;
+  text-shadow: 0 0 15px rgb(104, 104, 250);
+     padding-left:2vw; 
+     
+     
+    
     
     font-family: "Mukta", sans-serif;
     font-weight: 700;
@@ -655,6 +665,7 @@
 .skillsheading{
     font-family: "Mukta", sans-serif;
     color: rgb(0, 204, 255);
+    text-shadow: 0 0 10px rgb(159, 159, 251);
     font-weight: 700;
     font-size: 2.7vw;
     padding-left: 2vw;
@@ -828,6 +839,7 @@ font-size: 1.5vw;
   font-weight: 400;
   font-style: normal;
   color: rgb(0, 204, 255);
+  text-shadow: 0 0 10px rgb(152, 152, 247);
 
 }
 .logo1{
@@ -926,6 +938,7 @@ font-size: 1.5vw;
   }  
   .aboutme{
     font-size: 3vh;
+    text-align: center;
     
   }
 
@@ -1018,6 +1031,7 @@ font-size: 1.5vw;
   .projectsheading{
   
       font-size: 3vh;
+      text-align: center;
    
   }
   
@@ -1065,6 +1079,7 @@ font-size: 1.5vw;
   
   .skillsheading{
     font-size: 3vh;
+    text-align: center;
   }
   .top{
     font-size: 1.3vh;
@@ -1110,6 +1125,7 @@ font-size: 1.5vw;
   
   padding-bottom: 2vh;
   font-size: 3vh;
+  text-align: center;
  
 
 }
