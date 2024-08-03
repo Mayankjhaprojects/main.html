@@ -504,6 +504,18 @@
   font-size:1.3vw ;
   box-shadow: 0 0 10px rgba(230, 227, 227, 0.863);
 }
+.course1::-webkit-scrollbar{
+  display:none;
+}
+.course2::-webkit-scrollbar{
+  display:none;
+}
+.course3::-webkit-scrollbar{
+  display:none;
+}
+.course4::-webkit-scrollbar{
+  display:none;
+}
 .course3{
   background-color: rgb(114, 113, 113);
   height:42vh;
@@ -516,6 +528,7 @@
   padding:1vw;
   font-family: "Mukta", sans-serif;
   overflow-y:scroll;
+  
   color: white;
   font-size:1.3vw ;
   border-radius:15px;
@@ -688,12 +701,15 @@
 }
 .fa-instagram:hover{
   color:blue;
+  opacity: 0.5;
 }
 .fa-github:hover{
   color:blue;
+  opacity: 0.5;
 }
 .fa-linkedin:hover{
   color:blue;
+  opacity: 0.5;
 }
 .hero4{
   width:100vw;
